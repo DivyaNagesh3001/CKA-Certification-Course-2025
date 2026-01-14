@@ -155,10 +155,6 @@ Name contexts with the minor (e.g., `prod-1.32`) and sanity-check with `kubectl 
 
 ## High-Level Upgrade Flow (Production)
 
-Here’s a tightened version of your **High-Level Upgrade Flow (Production)**—same content, crisper phrasing.
-
-## High-Level Upgrade Flow (Production)
-
 * **Pre-checks**
   Verify control-plane and etcd health; ensure **capacity headroom** (or temporarily scale up); confirm **PDBs**, **readiness probes**, and **replicas** are in place; take an **etcd snapshot** and back up `/etc/kubernetes` (manifests/PKI).
 
